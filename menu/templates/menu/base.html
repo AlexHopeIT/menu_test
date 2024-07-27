@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Project</title>
+    </head>
+    <body>
+        <header>
+            {% load menu_tags %}
+            {% draw_menu 'main_menu' %}
+        </header>
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+{% load menu_tags %}
+{% render_menu_tree menu.items.all | discort:"parent_id" current_url %}
